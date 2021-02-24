@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:ital@1&display=swap');
+body {
+    font-family: Montserrat;
+    background-color: rgb(255, 255,244);
+}
+
+.album {
+    display:flex;
+    background-color: rgb(32,32,32);
+    color: #ffffff;
+    width: 800px;
+    margin: 100px auto;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.album__head {
+    margin-left: 20px;
+}
+
+.album__head h1 {
+    margin-bottom: 2px;
+}
+
+.album__head h3 {
+    margin-top: 2px;
+    margin-bottom: 20px;
+}
+
+.album__info {
+    flex-direction: row;
+    position: relative;
+    border-color: #ffffff;
+    border-top: dashed 1px;
+    border-bottom: dashed 1px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.album__info p {
+    margin-right: 300px;
+}
+
+.album__right img {
+    position: absolute;
+    width: 293px;
+    top: 0px;
+    right: 0px;
+    flex-grow: 1;
+}
+
+.link {
+    background-color: #E53631;
+    position: relative;
+    width: 180px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.link img {
+    position: absolute;
+    width: 50px;
+    top: 2px;
+    left: 2px;
+    align-content: center;
+
+}
+
+.link a {
+    position: absolute;
+    left: 60px;
+    bottom: 10px;
+    top: 10px;
+    color:#ffffff
+}
+
+
