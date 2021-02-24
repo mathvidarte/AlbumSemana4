@@ -6,12 +6,14 @@ body {
 
 .album {
     display:flex;
-    background-color: rgb(32,32,32);
+    /*background-color: rgb(32,32,32);*/
+    background-color: #0B4D2E;
     color: #ffffff;
     width: 800px;
     margin: 100px auto;
     flex-direction: column;
     border-radius: 10px;
+    box-shadow: 8px 8px 10px rgba(22, 22, 22, 0.3);
 }
 
 .album__head {
@@ -43,7 +45,7 @@ body {
 
 .album__right img {
     position: absolute;
-    width: 293px;
+    width: 295px;
     top: 0px;
     right: 0px;
     flex-grow: 1;
